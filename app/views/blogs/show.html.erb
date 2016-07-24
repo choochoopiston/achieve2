@@ -10,6 +10,13 @@
   <%= @blog.content %>
 </p>
 
+<p>
+  <strong>Profile Image:</strong>
+  <%= image_tag attachment_url(@blog, :profile_image) %>
+</p>
+
+
+
 <% if @blog.image? %>
 <p>
   <strong>Image:</strong>

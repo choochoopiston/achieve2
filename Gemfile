@@ -28,6 +28,9 @@ gem 'dotenv-rails'
 gem 'carrierwave'
 gem 'fog'
 
+gem "mini_magick"
+gem "refile", require: ["refile/rails", "refile/image_processing"]
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
